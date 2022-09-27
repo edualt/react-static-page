@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px , 1fr));
+  grid-gap: 10px;
+  padding: 10px;
+  justify-items: center;
+}
+
+.top{
+  padding-top: 90px;
+}
